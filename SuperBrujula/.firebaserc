@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "superbrujula-10cc7": {
+      "hosting": {
+        "app": [
+          "superbrujula-10cc7"
+        ]
+      }
+    }
+  }
+}

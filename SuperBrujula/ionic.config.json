@@ -1,0 +1,7 @@
+{
+  "name": "SuperBrujula",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

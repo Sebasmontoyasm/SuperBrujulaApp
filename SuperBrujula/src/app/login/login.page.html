@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="centrado">Super de Alimentos S.A</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      
+      <ion-card-title class="centrado">Iniciar Sesión</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <form>
+        <ion-row>
+          <ion-col>
+            <ion-button type="submit" color="warning" (click)="onLoginMicrosoft(email, password)" expand="block">
+              Ingresar con Microsoft    
+            </ion-button>
+          </ion-col>
+        </ion-row> 
+        <spam class="divider line one-line"></spam>
+        <ion-row>
+          <ion-col>
+            <ion-button type="submit" color="danger" (click)="onLoginGoogle(email, password)" expand="block">
+              Ingresar con Google  
+            </ion-button>
+          </ion-col>
+        </ion-row>  
+      </form>
+
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>
+
